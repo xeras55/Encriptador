@@ -110,7 +110,7 @@
 }
 /* --------------------------ipad--------------- */
 
-@media screen and (min-width: 712px) {
+@media screen and (min-width: 712px)  and (max-width: 1278px){
     html{
         background-color: #465062;
         min-width: 712px;
@@ -143,9 +143,12 @@
 
 
 
-@media screen and (min-width: 1279px) /*and (max-width: 1919px) */{
+@media screen and (min-width: 1279px) and (max-width: 1493px){
     h1{
         color:#0a3871;
+        position: relative;
+        right: 270px;
+
     }
     .totalSpace{
         width: 1279px;
@@ -158,50 +161,65 @@
     }
 
     .firsSection{
-                
+        display: grid;
+        place-items: center;
         background-color: red;
-        width: 610px;
+        width: 710px;
         height: 900px;
     }
     .secondSecction{
-        
+        display: grid;
+        place-items: center;
         background-color: purple;
-        width: 610px;
+        width: 510px;
         height: 900px;
     }
 
     .allSection{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #a5144c;
+        min-height: 770px;
+        min-width: 690px;
     }
 
     .inputSpace{
-        display: none;
+        min-width: 680px;
+        min-height: 500px;
     }
 
     .infoDiv{
-        display: none;
+        position: relative;
+        bottom: 270px;
+        right: 130px;
     }
 
     .buttonsSection{
-        display: none;
-    }
+    position: absolute;
+    top: 700px;
+    display: flex;
+    flex-direction: row;
+    min-width: 690px;
+
+}
 
     .unencryptSection{
-        display: none;
+        min-width: 450px;
+        min-height: 800px;
     }
-
 
 
     .imageContainer{
-        display: none;
-        height: 210px;
-        width: 250px;
-        background-size: 250px;
+        background-repeat: no-repeat;
+        height: 510px;
+        width: 350px;
+        background-size: 400px;
         background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
     }
 }
 /* ------------------------------------------------------------------------------- */
-@media screen and (min-width: 1494px) /*and (max-width: 1919px) */{
+@media screen and (min-width: 1494px) and (max-width: 1607px) {
     h1{
         color:#0a3871;
     }
@@ -216,7 +234,6 @@
     }
 
     .firsSection{
-                
         background-color: red;
         width: 700px;
         height: 900px;
@@ -229,32 +246,45 @@
     }
 
     .allSection{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #a5144c;
+        min-height: 770px;
+        min-width: 690px;
     }
 
     .inputSpace{
-        display: none;
+        min-width: 680px;
+        min-height: 500px;
     }
 
     .infoDiv{
-        display: none;
+        position: relative;
+        bottom: 270px;
+        right: 130px;
     }
 
     .buttonsSection{
-        display: none;
-    }
+    position: absolute;
+    top: 700px;
+    display: flex;
+    flex-direction: row;
+    min-width: 690px;
+
+}
 
     .unencryptSection{
-        display: none;
+        min-width: 50px;
+        min-height: 800px;
     }
-
 
 
     .imageContainer{
-        display: none;
-        height: 210px;
-        width: 250px;
-        background-size: 250px;
+        background-repeat: no-repeat;
+        height: 510px;
+        width: 350px;
+        background-size: 400px;
         background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
     }
 }
