@@ -153,7 +153,7 @@
     .totalSpace{
         width: 1279px;
         height: 935px;; 
-        background-color: green;
+        /* background-color: green; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -163,14 +163,14 @@
     .firsSection{
         display: grid;
         place-items: center;
-        background-color: red;
+        /* background-color: red; */
         width: 710px;
         height: 900px;
     }
     .secondSecction{
         display: grid;
         place-items: center;
-        background-color: purple;
+        /* background-color: purple; */
         width: 510px;
         height: 900px;
     }
@@ -179,7 +179,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #a5144c;
+        /* background-color: #a5144c; */
         min-height: 770px;
         min-width: 690px;
     }
@@ -192,7 +192,7 @@
     .infoDiv{
         position: relative;
         bottom: 270px;
-        right: 130px;
+        right: 180px;
     }
 
     .buttonsSection{
@@ -200,6 +200,7 @@
     top: 700px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     min-width: 690px;
 
 }
@@ -222,11 +223,13 @@
 @media screen and (min-width: 1494px) and (max-width: 1607px) {
     h1{
         color:#0a3871;
+        position: relative;
+        right: 360px;
     }
     .totalSpace{
         width: 1450px;
         height: 935px;; 
-        background-color: #2a9d8f;
+        /* background-color: #2a9d8f; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -234,35 +237,38 @@
     }
 
     .firsSection{
-        background-color: red;
-        width: 700px;
+        display: grid;
+        place-items: center;
+        /* background-color: red; */
+        width: 800px;
         height: 900px;
     }
     .secondSecction{
-        
-        background-color: purple;
-        width: 700px;
-        height: 900px;
+        display: grid;
+        place-items: center;
+        /* background-color: purple; */
+        min-width: 510px;
+        min-height: 900px;
     }
 
     .allSection{
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #a5144c;
+        /* background-color: #a5144c; */
         min-height: 770px;
-        min-width: 690px;
+        min-width: 790px;
     }
 
     .inputSpace{
-        min-width: 680px;
+        min-width: 780px;
         min-height: 500px;
     }
 
     .infoDiv{
         position: relative;
         bottom: 270px;
-        right: 130px;
+        right: 230px;
     }
 
     .buttonsSection{
@@ -270,12 +276,14 @@
     top: 700px;
     display: flex;
     flex-direction: row;
-    min-width: 690px;
+    min-width: 800px;
+    justify-content: space-around;
+    
 
 }
 
     .unencryptSection{
-        min-width: 50px;
+        min-width: 450px;
         min-height: 800px;
     }
 
@@ -292,11 +300,13 @@
 @media screen and (min-width: 1607px){
     h1{
         color:#0a3871;
+        position: relative;
+        right: 419px;
     }
     .totalSpace{
         width: 1590px;
         height: 935px;; 
-        background-color: #a5144c;
+        /* background-color: #a5144c; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -304,60 +314,78 @@
     }
 
     .firsSection{
-                
-        background-color: red;
-        width: 770px;
+        display: grid;
+        place-items: center;
+        /* background-color: red; */
+        width: 899px;
         height: 900px;
     }
     .secondSecction{
-        
-        background-color: purple;
-        width: 770px;
+        display: grid;
+        place-items: center;
+        /* background-color: purple; */
+        width: 510px;
         height: 900px;
     }
 
     .allSection{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: #a5144c; */
+        min-width: 890px;
+        min-height: 770px;
     }
 
     .inputSpace{
-        display: none;
+        min-width: 880px;
+        min-height: 500px;
     }
 
     .infoDiv{
-        display: none;
+        position: relative;
+        bottom: 270px;
+        right: 280px;
     }
 
     .buttonsSection{
-        display: none;
-    }
+    position: absolute;
+    top: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 890px;
+    
+
+}
 
     .unencryptSection{
-        display: none;
+        min-width: 450px;
+        min-height: 800px;
     }
-
 
 
     .imageContainer{
-        display: none;
-        height: 210px;
-        width: 250px;
-        background-size: 250px;
+        background-repeat: no-repeat;
+        height: 510px;
+        width: 350px;
+        background-size: 400px;
         background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
     }
-}
 
 
 /* --------------------------------------------------------------- */
 
-@media screen and (min-width: 1847px) /*and (max-width: 1919px) */{
+@media screen and (min-width: 1847px) and (max-width: 1919px) {
     h1{
         color:#0a3871;
+        position: relative;
+        right: 470px;
     }
     .totalSpace{
         width: 1800px;
         height: 935px;; 
-        background-color: #283618;
+        /* background-color: #283618; */
         display: flex;
         align-items: center;
         justify-content: center;
@@ -365,45 +393,62 @@
     }
 
     .firsSection{
-                
-        background-color: red;
-        width: 810px;
+        display: grid;
+        place-items: center;
+        /* background-color: red; */
+        width: 1000px;
         height: 900px;
     }
     .secondSecction{
-        
-        background-color: purple;
-        width: 810px;
+        display: grid;
+        place-items: center;
+        /* background-color: purple; */
+        width: 610px;
         height: 900px;
     }
 
     .allSection{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: #a5144c; */
+        min-width: 990px;
+        min-height: 770px;
     }
 
     .inputSpace{
-        display: none;
+        min-width: 880px;
+        min-height: 500px;
     }
 
     .infoDiv{
-        display: none;
+        position: relative;
+        bottom: 270px;
+        right: 280px;
     }
 
     .buttonsSection{
-        display: none;
-    }
+    position: absolute;
+    top: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-width: 990px;
+    
+
+}
 
     .unencryptSection{
-        display: none;
+        min-width: 450px;
+        min-height: 800px;
     }
-
 
 
     .imageContainer{
-        display: none;
-        height: 210px;
-        width: 250px;
-        background-size: 250px;
+        background-repeat: no-repeat;
+        height: 510px;
+        width: 350px;
+        background-size: 400px;
         background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
     }
 }
@@ -411,40 +456,61 @@
 
 @media screen  and (min-width: 1920px) {
     h1{
-        
+        color:#0a3871;
+        position: relative;
+        right: 470px;
+    }
+    .totalSpace{
+        width: 1890px;
+        height: 935px;
+        /* background-color: #283618; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .firsSection{
+        display: grid;
+        place-items: center;
+        /* background-color: red; */
+        width: 1100px;
+        height: 900px;
+    }
+    .secondSecction{
+        display: grid;
+        place-items: center;
+        /* background-color: purple; */
+        width: 610px;
+        height: 900px;
     }
 
     .allSection{
-        /* margin-left: 90px;
-        margin-top: 70px; */
-        position: relative;
-        top: 80px;
-        left: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: #a5144c; */
+        min-width: 1090px;
+        min-height: 798px;
+    }
+
+    .inputSpace{
+        min-width: 880px;
+        min-height: 500px;
     }
     
     .infoDiv{
         position: relative;
-        top: 80px;
-        margin-left: 118px;
+        right: 280px;
     }
     .buttonsSection{
-        position: relative;
-        top: 80px;
-        margin-left: 118px;
+        min-width: 1090px;
     }
 
 
     .unencryptSection{
-        width: 480px;
-        height: 880px;
-        background-color: #c0c0c0;
-        position: absolute;
-        left: 78rem;
-        bottom: 44px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: column;
+        min-width: 450px;
+        min-height: 800px;
     }
     .imageContainer{
         position: relative;
@@ -454,4 +520,5 @@
         background-size: 500px;
         background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
     }
+}
 }
