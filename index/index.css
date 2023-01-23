@@ -143,47 +143,173 @@
 
 
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1279px) /*and (max-width: 1919px) */{
     h1{
-        position: relative;
-        right: 17rem;
-        color: red;
+        color:#0a3871;
+    }
+    .totalSpace{
+        width: 1279px;
+        height: 935px;; 
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
     }
 
+    .firsSection{
+                
+        background-color: red;
+        width: 610px;
+        height: 900px;
+    }
+    .secondSecction{
+        
+        background-color: purple;
+        width: 610px;
+        height: 900px;
+    }
 
     .allSection{
-        position: relative;
-        right: 15rem;
-        /* background-color: red; */
-        min-width: 700px;
-        min-height: 300px;
+        display: none;
     }
 
     .inputSpace{
-        min-width: 694px;
-        min-height: 400px;
+        display: none;
     }
 
     .infoDiv{
-        position: relative;
-        right: 15rem;
+        display: none;
     }
 
     .buttonsSection{
-        min-height: 1px;
-        position: relative;
-        right: 15rem;
-        /* background-color: red; */
+        display: none;
     }
 
     .unencryptSection{
-        position: relative;
-        bottom: 400px;
+        display: none;
     }
 
+
+
     .imageContainer{
-        position: relative;
-        bottom: 90px;
+        display: none;
+        height: 210px;
+        width: 250px;
+        background-size: 250px;
+        background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
+    }
+}
+/* ------------------------------------------------------------------------------- */
+@media screen and (min-width: 1494px) /*and (max-width: 1919px) */{
+    h1{
+        color:#0a3871;
+    }
+    .totalSpace{
+        width: 1450px;
+        height: 935px;; 
+        background-color: #2a9d8f;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .firsSection{
+                
+        background-color: red;
+        width: 700px;
+        height: 900px;
+    }
+    .secondSecction{
+        
+        background-color: purple;
+        width: 700px;
+        height: 900px;
+    }
+
+    .allSection{
+        display: none;
+    }
+
+    .inputSpace{
+        display: none;
+    }
+
+    .infoDiv{
+        display: none;
+    }
+
+    .buttonsSection{
+        display: none;
+    }
+
+    .unencryptSection{
+        display: none;
+    }
+
+
+
+    .imageContainer{
+        display: none;
+        height: 210px;
+        width: 250px;
+        background-size: 250px;
+        background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
+    }
+}
+/* ------------------------------------------------ */
+@media screen and (min-width: 1607px){
+    h1{
+        color:#0a3871;
+    }
+    .totalSpace{
+        width: 1590px;
+        height: 935px;; 
+        background-color: #a5144c;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .firsSection{
+                
+        background-color: red;
+        width: 770px;
+        height: 900px;
+    }
+    .secondSecction{
+        
+        background-color: purple;
+        width: 770px;
+        height: 900px;
+    }
+
+    .allSection{
+        display: none;
+    }
+
+    .inputSpace{
+        display: none;
+    }
+
+    .infoDiv{
+        display: none;
+    }
+
+    .buttonsSection{
+        display: none;
+    }
+
+    .unencryptSection{
+        display: none;
+    }
+
+
+
+    .imageContainer{
+        display: none;
         height: 210px;
         width: 250px;
         background-size: 250px;
@@ -192,11 +318,70 @@
 }
 
 
+/* --------------------------------------------------------------- */
 
+@media screen and (min-width: 1847px) /*and (max-width: 1919px) */{
+    h1{
+        color:#0a3871;
+    }
+    .totalSpace{
+        width: 1800px;
+        height: 935px;; 
+        background-color: #283618;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+
+    .firsSection{
+                
+        background-color: red;
+        width: 810px;
+        height: 900px;
+    }
+    .secondSecction{
+        
+        background-color: purple;
+        width: 810px;
+        height: 900px;
+    }
+
+    .allSection{
+        display: none;
+    }
+
+    .inputSpace{
+        display: none;
+    }
+
+    .infoDiv{
+        display: none;
+    }
+
+    .buttonsSection{
+        display: none;
+    }
+
+    .unencryptSection{
+        display: none;
+    }
+
+
+
+    .imageContainer{
+        display: none;
+        height: 210px;
+        width: 250px;
+        background-size: 250px;
+        background-image: url(../images/—Pngtree—searching\ for\ money\ or\ documents_8880583.png);
+    }
+}
+/* ---------------------------------------------------------------------- */
 
 @media screen  and (min-width: 1920px) {
     h1{
-        margin-right: ;
+        
     }
 
     .allSection{
