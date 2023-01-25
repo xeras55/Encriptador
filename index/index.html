@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>pruebas</title>
+    <script type="text/javascript" src="./index.js"></script>
 </head>
 <body>
     <div class="totalSpace">
@@ -20,17 +21,19 @@
                 <p class="labelUcon">Solo letras minúsculas y sin acentos</p>
             </div>
             <div class="buttonsSection">
-                <button class="encryptBtn" type="submit">Encriptar</button>
+                <button class="encryptBtn" type="submit" onclick="encrypter()">Encriptar</button>
                 <button class="uneneCryptBtn" type="submit">Desencriptar</button>
             </div>
         </div> 
-        <div class="secondSecction">
-            <div class="unencryptSection">
-                <div class="imageContainer"></div>
-                <h3>Ningún mensaje fue encontrado</h3>
-                <p>Ingresa un texto para Encriptar <br> o Desencriptar</p>
+        <div class="secondSecction">    
+            <div id = 'unencryptSection' class="unencryptSection">
+                <textarea class="outputSpace" name="outputSpace" id="outputSpace" cols="30" rows="5"></textarea>
+                <div id= "imageContainer" class="imageContainer"></div>
+                <h3 id="h3" class="h3">Ningún mensaje fue encontrado</h3>
+                <p id="parragraph" class="parragraph">Ingresa un texto para Encriptar <br> o Desencriptar</p>
             </div>
         </div>
     </div>
+    
 </body>
 </html>

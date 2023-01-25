@@ -1,16 +1,15 @@
-let wordToEncryp = 'aeiouaeiou';
-
-
-let letterA =[];
-let letterE =[];
-let letterI =[];
-let letterO =[];
-let letterU =[];
-
-let fixingWord = Array.from(wordToEncryp);
 
 
 const forProces = () =>{
+    let wordToEncryp = 'pepe';
+    let letterA =[];
+    let letterE =[];
+    let letterI =[];
+    let letterO =[];
+    let letterU =[];
+    
+    let fixingWord = Array.from(wordToEncryp);
+
     for(let i = 0; i < wordToEncryp.length; i++){
         if (wordToEncryp[i] === "a") letterA.push(i);
         
@@ -24,12 +23,6 @@ const forProces = () =>{
         
     }
 
-    /*console.log(`este arreglo tiene la letra A en las posiciones ${letterA}`);
-    console.log(`este arreglo tiene la letra E en las posiciones ${letterE}`);
-    console.log(`este arreglo tiene la letra I en las posiciones ${letterI}`);
-    console.log(`este arreglo tiene la letra O en las posiciones ${letterO}`);
-    console.log(`este arreglo tiene la letra U en las posiciones ${letterU}`); */
-    
     
     letterA.forEach(element => {
         fixingWord[element] = 'ai';
@@ -64,4 +57,3 @@ const forProces = () =>{
     console.log(fixingWord.join(''));
 
 }
-forProces()
