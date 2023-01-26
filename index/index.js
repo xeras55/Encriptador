@@ -59,10 +59,7 @@ const encrypter = () =>{
 
         const answer = fixingWord.join('')
         console.log(answer);
-        /*const createOutput = document.createElement('textarea');
-        const unencryptSection = document.getElementById('unencryptSection')
         h3.style.visibility = "hidden";
-        createOutput.id = 'outputSpace'*/
         const image = document.getElementById('imageContainer');
         outputSpace.textContent= answer;
         h3.style.visibility = 'hidden';
@@ -72,3 +69,41 @@ const encrypter = () =>{
 
 }
 
+const unencrypter = () =>{
+    
+    let wordToUnencrypt = document.getElementById('inputSpace').value;
+        
+        while (wordToUnencrypt.includes('ai')){
+            wordToUnencrypt = wordToUnencrypt.replace('ai', 'a');
+            
+        }
+    
+        while (wordToUnencrypt.includes('enter')){
+            wordToUnencrypt = wordToUnencrypt.replace('enter', 'e');
+            //console.log(wordToUnencrypt)
+        }
+    
+        while (wordToUnencrypt.includes('imes')){
+            wordToUnencrypt = wordToUnencrypt.replace('imes', 'i');
+            //console.log(wordToUnencrypt)
+        }
+    
+        while (wordToUnencrypt.includes('ober')){
+            wordToUnencrypt = wordToUnencrypt.replace('ober', 'o');
+            //console.log(wordToUnencrypt)
+        }
+    
+        while (wordToUnencrypt.includes('ufat')){
+            wordToUnencrypt = wordToUnencrypt.replace('ufat', 'u');
+            //console.log(wordToUnencrypt)
+        }
+        console.log(wordToUnencrypt);
+        h3.style.visibility = "hidden";
+        const image = document.getElementById('imageContainer');
+        outputSpace.textContent= wordToUnencrypt;
+        h3.style.visibility = 'hidden';
+        parragraph.style.visibility = 'hidden';
+        imageContainer.style.visibility = 'hidden';
+        outputSpace.style.visibility = 'visible';   
+    
+}

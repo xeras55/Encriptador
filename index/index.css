@@ -71,6 +71,7 @@
         background-color: #0a3871;
         border-style: none;
         border-radius: 25px;
+        color: #d8dfe8;
     }
 
     .encryptBtn:hover{
@@ -101,7 +102,7 @@
         align-items: center;
         justify-items: center;
         border-radius: 20px;
-        min-height: 60px;
+        min-height: 300px;
         min-width: 350px;
     }
     .outputSpace{
@@ -109,10 +110,25 @@
         background-color: #c0c0c0;
         border-style: none;
         position: absolute;
+        bottom: 200px;
         min-width: 350px;
+        font-size: x-large;
         
     }
 
+    .copy{
+        margin: 10px;
+        height: 70px;
+        width: 350px;
+        background-color: #f3f5fc;
+        border-style: none; 
+        border-radius: 25px;
+    }
+
+    .copy:hover{
+        background-color: #d8dfe8;
+        transition: 0.8ms;
+    }
     
 }
 /* --------------------------ipad--------------- */
@@ -146,7 +162,10 @@
     }
 
     .outputSpace{
+        position: absolute;
+        top: 800px;
         min-width: 670px;
+        font-size: x-large;
     }
 }
 
@@ -230,7 +249,10 @@
     }
     .outputSpace{
         min-width: 400px;
-        min-height: 750px;
+        min-height: 650px;
+        font-size: xx-large;
+        position: absolute;
+        top: 100px;
     }
 }
 /* ------------------------------------------------------------------------------- */
@@ -311,7 +333,10 @@
     }
     .outputSpace{
         min-width: 400px;
-        min-height: 750px;
+        min-height: 650px;
+        font-size: xx-large;
+        position: absolute;
+        top: 100px;
     }
 }
 /* ------------------------------------------------ */
@@ -393,7 +418,10 @@
 
     .outputSpace{
         min-width: 400px;
-        min-height: 750px;
+        min-height: 650px;
+        font-size: xx-large;
+        position: absolute;
+        top: 100px;
     }
 /* --------------------------------------------------------------- */
 
@@ -475,7 +503,10 @@
 
     .outputSpace{
         min-width: 400px;
-        min-height: 750px;
+        min-height: 650px;
+        font-size: xx-large;
+        position: absolute;
+        top: 100px;
     }
 }
 /* ---------------------------------------------------------------------- */
@@ -548,7 +579,10 @@
     }
     .outputSpace{
         min-width: 400px;
-        min-height: 750px;
+        min-height: 650px;
+        font-size: xx-large;
+        position: absolute;
+        top: 100px;
     }
 }
 }
