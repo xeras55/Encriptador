@@ -107,3 +107,9 @@ const unencrypter = () =>{
         outputSpace.style.visibility = 'visible';   
     
 }
+
+const copyToClip = () =>{
+    let textCopied = document.getElementById('outputSpace');
+    navigator.clipboard.writeText(textCopied.innerHTML);
+    alert('copiado')
+}
